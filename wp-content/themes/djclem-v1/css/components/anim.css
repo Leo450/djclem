@@ -1,0 +1,18 @@
+#anim-logo,
+#anim-line {
+  position: absolute;
+  opacity: 0.5;
+}
+#anim-line {
+  position: absolute;
+  height: 0;
+  width: 0;
+}
+#anim-line.anim-on {
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+/*# sourceMappingURL=anim.css.map */

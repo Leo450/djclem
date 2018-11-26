@@ -1,0 +1,71 @@
+@import "../../variables/fonts";
+
+body.accueil{
+	height:100%;
+
+	.wrapper{
+		min-height:100%;
+		display:flex;
+		flex-direction:column;
+		justify-content:space-between;
+
+		.home-contact-container{
+			position:relative;
+			height:100%;
+			display:flex;
+			align-items:center;
+
+			.home-contact{
+				position:absolute;
+				top:50%;
+				left:20%;
+				font-size:.8em;
+				letter-spacing:.3em;
+				text-transform:uppercase;
+				flex-grow:0;
+				white-space:nowrap;
+				transform-origin:center;
+				-webkit-transform:translateX(-50%) translateY(-50%) rotate(-90deg);
+				-moz-transform:translateX(-50%) translateY(-50%) rotate(-90deg);
+				-ms-transform:translateX(-50%) translateY(-50%) rotate(-90deg);
+				-o-transform:translateX(-50%) translateY(-50%) rotate(-90deg);
+				transform:translateX(-50%) translateY(-50%) rotate(-90deg);
+			}
+		}
+
+		section{
+
+			.brand{
+				margin-left:14px;
+				text-transform:uppercase;
+				font-family:@font-title-light;
+				font-size:1.5em;
+				letter-spacing:.68em;
+			}
+
+			h1{
+				margin:.25em 0;
+				font-size:16em;
+
+				> .font-bis{
+					font-size:.25em;
+					text-transform:none;
+				}
+				> .dot{
+					color:#000000;
+				}
+			}
+
+			button{
+				padding:1.1em 3em;
+				background-color:transparent;
+				border:1px solid rgba(255,255,255,.2);
+				color:white;
+				text-transform:uppercase;
+				font-family:@font-title-light;
+			}
+		}
+
+	}
+
+}

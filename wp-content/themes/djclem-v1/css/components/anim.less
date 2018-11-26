@@ -1,0 +1,17 @@
+#anim-logo, #anim-line{
+	position:fixed;
+	opacity:.2;
+}
+#anim-line{
+	height:0;
+	width:0;
+	background-color:#fff;
+
+	&.anim-on{
+		-webkit-transition:all 2s ease-in-out;
+		-moz-transition:all 2s ease-in-out;
+		-ms-transition:all 2s ease-in-out;
+		-o-transition:all 2s ease-in-out;
+		transition:all 2s ease-in-out;
+	}
+}

@@ -1,0 +1,303 @@
+@import "global/reset.css";
+@font-face {
+  font-family: 'edmondsansbold';
+  src: url('../fonts/edmondsans-bold-webfont.woff2') format('woff2'), url('../fonts/edmondsans-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'edmondsansmedium';
+  src: url('../fonts/edmondsans-medium-webfont.woff2') format('woff2'), url('../fonts/edmondsans-medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'edmondsansregular';
+  src: url('../fonts/edmondsans-regular-webfont.woff2') format('woff2'), url('../fonts/edmondsans-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'moriston_personalblack';
+  src: url('../fonts/moristonpersonal-black-webfont.woff2') format('woff2'), url('../fonts/moristonpersonal-black-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'moriston_personalbold';
+  src: url('../fonts/moristonpersonal-bold-webfont.woff2') format('woff2'), url('../fonts/moristonpersonal-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'moriston_personallight';
+  src: url('../fonts/moristonpersonal-light-webfont.woff2') format('woff2'), url('../fonts/moristonpersonal-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'moriston_personalmedium';
+  src: url('../fonts/moristonpersonal-medium-webfont.woff2') format('woff2'), url('../fonts/moristonpersonal-medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'moriston_personal_regularRg';
+  src: url('../fonts/moristonpersonal-regular-webfont.woff2') format('woff2'), url('../fonts/moristonpersonal-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'moriston_personalsemibold';
+  src: url('../fonts/moristonpersonal-semibold-webfont.woff2') format('woff2'), url('../fonts/moristonpersonal-semibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ddc_hardwarecompressed';
+  src: url('../fonts/ddchardware-compressed-webfont.woff2') format('woff2'), url('../fonts/ddchardware-compressed-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ddc_hardwarecondensed';
+  src: url('../fonts/ddchardware-condensed-webfont.woff2') format('woff2'), url('../fonts/ddchardware-condensed-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ddc_hardware_regularregular';
+  src: url('../fonts/ddchardware-regular-webfont.woff2') format('woff2'), url('../fonts/ddchardware-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'tofino_personallight';
+  src: url('../fonts/tofinopersonal-light-webfont.woff2') format('woff2'), url('../fonts/tofinopersonal-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'tofino_personallight_italic';
+  src: url('../fonts/tofinopersonal-lightitalic-webfont.woff2') format('woff2'), url('../fonts/tofinopersonal-lightitalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'tofino_personalregular';
+  src: url('../fonts/tofinopersonal-regular-webfont.woff2') format('woff2'), url('../fonts/tofinopersonal-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'tofino_personalitalic';
+  src: url('../fonts/tofinopersonal-regularitalic-webfont.woff2') format('woff2'), url('../fonts/tofinopersonal-regularitalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'tofino_personalsemibold';
+  src: url('../fonts/tofinopersonal-semibold-webfont.woff2') format('woff2'), url('../fonts/tofinopersonal-semibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'tofino_personalSBdIt';
+  src: url('../fonts/tofinopersonal-semibolditalic-webfont.woff2') format('woff2'), url('../fonts/tofinopersonal-semibolditalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'fairviewregular';
+  src: url('../fonts/fairview_regular-webfont.woff2') format('woff2'), url('../fonts/fairview_regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'fairviewsmall_caps';
+  src: url('../fonts/fairview_smallcaps-webfont.woff2') format('woff2'), url('../fonts/fairview_smallcaps-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'flamalightregular';
+  src: url('../fonts/flamalight_regular-webfont.woff2') format('woff2'), url('../fonts/flamalight_regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: flamalightregular, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  letter-spacing: 0.1em;
+}
+body,
+a {
+  color: #ffffff;
+}
+h1 {
+  font-family: edmondsansbold, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 6em;
+  margin-bottom: 0.5em;
+}
+h2 {
+  margin-bottom: 2em;
+  font-size: 2em;
+  font-family: flamalightregular, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+.font-bis {
+  font-family: moriston_personalblack, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+html {
+  height: 100%;
+}
+body {
+  background-color: #000000;
+}
+body > .wrapper {
+  max-width: 100%;
+}
+body > .wrapper > .header {
+  height: 0;
+}
+body > .wrapper > .header .logo {
+  font-size: 5em;
+  font-family: edmondsansbold, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+body > .wrapper > .header .logo a {
+  position: relative;
+}
+body > .wrapper > .header .logo a:after {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  top: 50%;
+  left: 50%;
+  margin-top: -3px;
+  margin-left: 2px;
+  -webkit-border-radius: 999px;
+  -moz-border-radius: 999px;
+  border-radius: 999px;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+body > .wrapper > .header .nav {
+  padding: 4em 0;
+}
+body > .wrapper > .header .nav ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+body > .wrapper > .header .nav ul li a {
+  padding: 2em;
+  font-family: flamalightregular, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+body > .wrapper > .header .nav ul li:last-child a {
+  margin-right: -2em;
+}
+#anim-logo,
+#anim-line {
+  position: fixed;
+  opacity: 0.2;
+}
+#anim-line {
+  height: 0;
+  width: 0;
+  background-color: #fff;
+}
+#anim-line.anim-on {
+  -webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  -ms-transition: all 2s ease-in-out;
+  -o-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;
+}
+#background {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  z-index: -1;
+}
+#background:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.65);
+}
+body.accueil {
+  height: 100%;
+}
+body.accueil .wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+body.accueil .wrapper .home-contact-container {
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+body.accueil .wrapper .home-contact-container .home-contact {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  font-size: 0.8em;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  flex-grow: 0;
+  white-space: nowrap;
+  transform-origin: center;
+  -webkit-transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+  -moz-transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+  -ms-transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+  -o-transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+  transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+}
+body.accueil .wrapper section .brand {
+  margin-left: 14px;
+  text-transform: uppercase;
+  font-family: edmondsansregular, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+  letter-spacing: 0.68em;
+}
+body.accueil .wrapper section h1 {
+  margin: 0.25em 0;
+  font-size: 16em;
+}
+body.accueil .wrapper section h1 > .font-bis {
+  font-size: 0.25em;
+  text-transform: none;
+}
+body.accueil .wrapper section h1 > .dot {
+  color: #000000;
+}
+body.accueil .wrapper section button {
+  padding: 1.1em 3em;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  text-transform: uppercase;
+  font-family: edmondsansregular, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+body.page-template-template-content main {
+  margin-top: 20em;
+}
+body.page-template-template-content main p {
+  line-height: 2em;
+}
+/*# sourceMappingURL=style.css.map */

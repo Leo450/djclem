@@ -450,5 +450,6 @@ function html5_shortcode_demo_2($atts, $content = null) // Demo Heading H2 short
 }
 
 require_once "functions.cpt.php";
+require_once "functions.theme.php";
 
 ?>
