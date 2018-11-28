@@ -17,10 +17,13 @@ add_action("wp_enqueue_scripts", "djclem_styles");
 function djclem_scripts()
 {
 
-	wp_register_script('image-full', get_template_directory_uri() . '/js/image-full.js', array(), '1.0.0', 'all');
+	wp_register_script('image-full', get_template_directory_uri() . '/js/image-full.js', array(), '1.0.0');
 	wp_enqueue_script('image-full');
 
-	wp_register_script('anim', get_template_directory_uri() . '/js/anim.js', array(), '1.0.0', 'all');
+	wp_register_script('LetterDrawer', get_template_directory_uri() . '/js/lib/LetterDrawer/LetterDrawer.js', array(), '1.0.0');
+	wp_enqueue_script('LetterDrawer');
+
+	wp_register_script('anim', get_template_directory_uri() . '/js/anim.js', array(), '1.0.0');
 	wp_enqueue_script('anim');
 
 }
